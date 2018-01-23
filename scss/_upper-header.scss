@@ -23,6 +23,12 @@ header {
                     padding: 1.75em;
                     display: inline-block;
                     float: none;
+                    li.active {
+                        a {
+                            background-color: $stColor;
+                            color: $white;
+                        }
+                    }
                     li {
                         a {
                             color: $black;

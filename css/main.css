@@ -116,6 +116,9 @@ header nav.navbar {
       padding: 1.75em;
       display: inline-block;
       float: none; }
+      header nav.navbar .container .navbar-collapse ul.navbar-nav li.active a {
+        background-color: #ef3f23;
+        color: #FFF; }
       header nav.navbar .container .navbar-collapse ul.navbar-nav li a {
         color: #000; }
         header nav.navbar .container .navbar-collapse ul.navbar-nav li a:hover {
