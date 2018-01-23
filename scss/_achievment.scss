@@ -1,0 +1,69 @@
+.achievment {
+    background-color: #EEE;
+    padding: 3em 0;
+    .container {
+        h2 {
+            color: $stColor;
+            font-weight: bold;
+        }
+        h2:first-of-type {
+            padding-bottom: .25em;
+        }
+        h2:last-of-type {
+            padding: .625em 0;
+        }
+        h6:first-of-type {
+            padding-bottom: 2em;
+        }
+        p.p-s {
+            padding: 1em 0;
+        }
+        p:last-of-type {
+            padding: 1em 0;
+        }
+        ul {
+            li {
+                margin-right: 3em;
+                padding: 1em 0;
+                .fa-chevron-left {
+                    margin: 0;
+                }
+                p {
+                    padding: 1.25em 1.25em 1.25em 0;
+                }
+            }
+        }
+    }
+}
+.membership {
+    padding: 3em 0;
+    .container {
+        h4 {
+            color: $stColor; 
+            font-weight: bold;
+            padding-bottom: 1em;
+        }
+        h3 {
+            margin: 0;
+        }
+    }
+}
+
+.contacts {
+    background-color: $stColor;
+    .container {
+        h4 {
+            color: $white;
+            padding: 1em 0;
+            font-weight: bold;
+        }
+        .text-center {
+            padding: 1.5em 0;
+            font-weight: bold;
+            a {
+                font-size: 1.5em;
+                color: $white;
+            }
+        }
+    }
+}

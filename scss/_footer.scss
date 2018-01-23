@@ -1,0 +1,65 @@
+.footer {
+    background-color: $footer;
+    padding: 2.5em 0;
+    h3 {
+        color: $stColor;
+        padding-bottom: 1em;
+        span {
+            color: #777;
+        }
+    }
+    p {
+        color: #777;
+        padding: 0 0 1.5em 1em;
+    }
+    ul {
+        li {
+            padding-bottom: .75em;
+            a {
+                color: #777;
+            }
+        }
+    }
+    .left-footer {
+        form {
+            input, textarea {
+                padding: 1em;
+                position: relative;
+                border-radius: 2em;
+                width: 170px;
+                margin-bottom: 1em;
+                background-color: #1c1e27;
+                &::placeholder {
+                    font-family: $baseFont;
+                }
+            }
+            textarea {
+                width: 250px;
+                font-family: $baseFont;
+            }
+            .bo {
+                margin-right: -2em;
+                position: absolute;
+            }
+            button {
+                background-color: $stColor;
+                color: $white;
+                font-weight: bold;
+                font-family: $baseFont;
+                padding: 1em;
+                border-radius: 2em;
+
+            }
+        }
+    }
+}
+.end-footer {
+    p {
+        padding: 1.5em;
+        color: #777;
+        background-color: #1c1e27;
+        span {
+            color: $stColor;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.divisions {
+    background-color: $secColor;
+    padding-bottom: 3em;
+    .container {
+        h2 {
+            color: $stColor;
+            padding: 3em 0;
+            font-weight: bold;
+        }
+        h3 {
+            background-color: $stColor;
+            padding: 1.5em 0;
+            color: $white;
+            font-weight: bold;
+        }
+        h5 {
+            color: navy;
+            padding: .75em;
+        }
+        ul {
+            padding: .9em;
+            li {
+                margin-bottom: .5em;
+            }
+        }
+        p {
+            padding: .75em;
+            font-size: 1.1em;
+        }
+        .row {
+            .right-part-1, .middle-part, .left-part-1 {
+                background-color: $white;
+            }
+            .left-part-1 {
+                ul {
+                    li {
+                        padding-bottom: .45em;
+                    }
+                }
+            }
+            .col-md-4 {
+                transition: all .5s ease-in-out;
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+}
+.link-move {
+    margin: 1em .5em;
+    padding-bottom: 2em;
+}

@@ -1,0 +1,65 @@
+.about-company {
+    background-color: $secColor;
+    padding: 3em 0;
+    .container {
+        h4 {
+            padding-bottom: 3em;
+            color: $stColor;
+            font-weight: bold; 
+            font-size: 2em;
+        }
+        .profile-desc {
+            p {
+                font-size: 1.1em;
+                padding-top: 2.5em;
+            }
+        }
+        .profile {
+            img {
+                width: initial;
+            }
+        }
+    }
+}
+
+@media(max-width:995px) {
+    .about-company {
+        padding: 1em 0;
+        .container {
+            h4 {
+                padding: 1em 0;
+            }
+            .profile-desc {
+                p {
+                    padding-top: .75em;
+                }
+            }
+            .profile {
+                img {
+                    margin-top: 1em;
+                }
+            }
+        }
+    }
+}
+
+.rewards {
+    padding: 1em;
+    .container {
+        h4 {
+            color: $stColor;
+            margin: 1em 0;
+            font-weight: bold;
+        }
+        .col-lg-3 {
+            img {
+                transition: all .5s ease-in-out;
+                padding-bottom: 2em;
+                &:hover {
+                    // opacity: .75;
+                    transform: scale(1.1)
+                }
+            }
+        }
+    }
+}

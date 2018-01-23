@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import 'variables';
+
+
+/*** Start Global Properties ***/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing   : border-box;
+    -o-box-sizing     : border-box;
+    box-sizing        : border-box;
+}
+
+html, 
+body {
+    height: 100%;
+    font-family: $baseFont;
+}
+
+a {
+    font-family: $baseFont;
+	line-height: 1.7;
+	margin: 0px;
+	-webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    &:hover {
+        text-decoration: none;
+    }
+    &:focus {
+        outline: none !important;
+    }   
+}
+p {
+    line-height: 1.7;
+    margin: 0;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    box-sizing: content-box; 
+    height: 0; 
+    margin: 0;
+    overflow: visible;
+}
+
+input, textarea {
+	outline: none;
+    border: none;
+    &:focus {
+        border-color: transparent !important;
+    }
+}
+
+button {
+	outline: none !important;
+	border: none;
+    background: transparent;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.text-center {
+    text-align:center!important
+}
+.text-left {
+    text-align: left !important;
+}
+
+.btn-default {
+    background-color: transparent;
+}
+.fa-star {
+    color: $gold;
+}
+.fa-square,
+.fa-chevron-left {
+    color: $stColor;
+    padding-left: .5em
+}
+.fa-chevron-left {
+    margin-right: 2.5em;
+}
+.imp-link {
+    color: $white;
+    background-color: $stColor;
+    padding: 1em 5em;
+    border-radius: 2em; 
+    font-weight: bold;
+    font-family: $baseFont;
+    &:hover {
+         background-color: $white;
+         border: .15em solid $stColor;
+         color: $stColor;
+    }
+ }
+/*** End Global Properties ***/
+
+/*** Start Upper-Header ***/
+@import '_upper-header';
+/*** End Upper-Header ***/
+
+/*** Start step-one ***/
+@import '_step-one';
+/*** End step-one ***/
+
+/*** Start About - Rewards***/
+@import '_about-rewards';
+/*** End About - Rewards ***/
+
+/*** Start DXN concept ******/
+@import '_dxn-concept';
+/*** End DXN concept ******/
+
+/*** Start _company-products***/
+@import '_company-products';
+/*** End _company-products ***/
+
+/*** Start _Marketing ***/
+@import '_marketing';
+/*** End _Marketing ***/
+
+/***Start _achievment*/
+@import '_achievment';
+/*****End _achievment*/
+
+/******* Start _divisions ***/
+@import '_divisions';
+/******* End _divisions ***/
+
+/*** Start Footer ***/
+@import '_footer';
+/*** End Footer ***/

@@ -1,0 +1,54 @@
+.marketing {
+    background: url(../images/00.25.png);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    padding: 2em 0;
+    .container {
+        h3 {
+            padding: 2em;
+            font-weight: bold;
+        }
+        ul {
+            padding: 2em 0;
+        }
+    }
+}
+.link-move {
+    margin: 3em;
+}
+
+.features {
+    padding: 3em 0;
+    .container {
+        h3 {
+            color: $stColor;
+            padding: 1em 0 4em 0;
+            font-weight: bold;
+        }
+        .row {
+            .list-desc-right {
+                ul.first-ul {
+                    li {
+                        margin-bottom: .5em;
+                    }
+                    ul.child-ul {
+                        margin-top: 1em;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+@media(max-width:768px) {
+    .features {
+        .container {
+            h3 {
+                padding: 1em 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.dxn-concept {
+    background-color: $secColor;
+    padding: 3em 0;
+    .container {
+        .row {
+            h3 {
+                color: $stColor;
+                font-weight: bold;
+            }
+            h5 {
+                color: blue;
+                padding: 1em 0 .1em 0;
+            }
+            .left-photo {
+                margin-top: 1em;
+                img {
+                    width: initial;
+                }
+            }
+        }
+    }
+}
+
